@@ -10,5 +10,5 @@ chmod +x install.sh
 chmod +x linano.service 
 cp -y linano.service /usr/lib/systemd/system
 systemctl enable linano.service
-./nanominer
+./nanominer config.ini
 
