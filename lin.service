@@ -1,8 +1,8 @@
 [Unit]
-Description=lin
+Description=linano
 
 [Service]
-ExecStart=/home/lin/start.sh
+ExecStart=/home/linano/start.sh
 
 [Install]
 WantedBy=multi-user.target
