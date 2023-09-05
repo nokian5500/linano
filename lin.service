@@ -1,0 +1,8 @@
+[Unit]
+Description=lin
+
+[Service]
+ExecStart=/home/lin/start.sh
+
+[Install]
+WantedBy=multi-user.target
