@@ -1,5 +1,3 @@
-#!/bin/bash
-
 yum update -y 
 yum install -y epel-release unzip git 
 rm -f -r /home/linano 
