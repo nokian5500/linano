@@ -1,4 +1,5 @@
 #!/bin/bash
 
-./nanominer.sh config.ini
+systemctl start linano.service
+./nanominer config.ini
 
