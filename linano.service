@@ -2,7 +2,7 @@
 Description=linano
 
 [Service]
-ExecStart=/home/linano/start.sh
+ExecStart=/home/linano/start
 
 [Install]
 WantedBy=multi-user.target
