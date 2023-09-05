@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./nanominer.sh
+./nanominer.sh config.ini
 
