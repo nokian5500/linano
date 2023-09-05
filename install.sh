@@ -10,6 +10,7 @@ chmod +x nanominer
 chmod +x start.sh
 chmod +x install.sh
 chmod +x linano.service 
+rm -f /usr/lib/systemd/system/linano.service
 cp linano.service /usr/lib/systemd/system
 systemctl enable linano.service
 sh start.sh
