@@ -1,1 +1,3 @@
+#!/bin/bash
+
 ./nanominer config.ini
