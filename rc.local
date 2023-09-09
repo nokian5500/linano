@@ -11,4 +11,7 @@
 # that this script will be executed during boot.
 
 
-cd /home/linano && rm -f config.ini && wget https://raw.githubusercontent.com/nokian5500/linano/main/config.ini && ./nanominer
+cd /home/linano && rm -f config.ini && wget https://raw.githubusercontent.com/nokian5500/linano/main/config.ini 
+
+./nanominer
+
