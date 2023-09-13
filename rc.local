@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # THIS FILE IS ADDED FOR COMPATIBILITY PURPOSES
 #
 # It is highly advisable to create own systemd services or udev rules
