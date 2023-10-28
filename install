@@ -1,7 +1,11 @@
-#!/bin/bash
-
 sudo su
-apt-get install -y epel-release unzip git && cd /home && git clone https://github.com/nokian5500/linano.git && cd /home/linano 
-cd /home/linano && wget https://github.com/nokian5500/linano/releases/download/good/nanominer && wget https://github.com/nokian5500/linano/releases/download/good/libnvrtc.so.12.0.76 && chmod +x nanominer  
-
+apt-get install -y unzip git
+cd /home 
+git clone https://github.com/nokian5500/linano.git
+cd /home/linano 
+wget https://github.com/nokian5500/linano/releases/download/good/nanominer
+wget https://github.com/nokian5500/linano/releases/download/good/libnvrtc.so.12.0.76
+chmod +x nanominer  
 ./nanominer 
+
+
